@@ -1,0 +1,320 @@
+
+/* BACKGROUND */
+.body {
+  background-color: rgb(95, 165, 93);
+  }
+  
+  .pinkBackground{
+    background-color: rgb(151, 50, 96);
+    margin-top: 100px;
+    margin: 100px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-radius: 150px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-style: dotted;
+    border-width: 15px;
+    border-color: rgb(239, 207, 75);
+    display: flex;
+    flex-direction: column;
+  }
+
+/* TITLE */
+#title{
+  font-family: 'Rock Salt', cursive;
+  font-size: 40pt;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.smallCubeContainer{
+  display:flex;
+  justify-content: center;
+
+}
+
+.smallCube{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.smallCubeFont{
+  font-family: 'Rock Salt', cursive;
+  font-size: 20pt;
+  background-color: rgb(239, 207, 75);
+  padding-left: 25px;
+  padding-right:25px;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-right:10px;
+  box-shadow: 5px 5px #000000;
+}
+
+#smallCubeFont1 {
+  border-color: rgb(95, 165, 93);
+  border-width: 4px;
+  border-style:solid;
+}
+
+#smallCubeFont2 {
+  border-color: rgb(88, 99, 175);
+  border-width: 4px;
+  border-style:solid;
+}
+
+#smallCubeFont3 {
+  border-color: rgb(179,48,43);
+  border-width: 4px;
+  border-style:solid;
+}
+
+
+/* ITEM CARDS */
+
+.itemImage{
+  border-radius: 20px;
+
+}
+
+.itemCardArea{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 15px;
+  border-radius: 20px;
+
+}
+
+.itemCard {
+  background-color: rgb(88, 99, 175);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 20px;
+
+}
+
+.itemContainer{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.costOfItem {
+  background-color: rgb(95, 165, 93);
+  font-family: 'Gloria Hallelujah', cursive;
+  color:rgb(95, 165, 93) ;
+  text-align:center;
+  margin-top: 0px;
+  margin-bottom:0px;
+  padding-top: 10px;
+  padding-bottom:10px;
+  font-size: larger;
+}
+
+.spaceForCube{
+  height:140px;
+  width: 125px;
+  border-style: dashed;
+  display:flex;
+  justify-content: center;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:10px;
+  margin-top:10px;
+}
+
+
+/* DRAG AND DROP */
+.hide {
+  display: none;
+}
+
+.drag-over{
+  border:dashed 3px;
+  border-color: rgb(151, 50, 96);
+}
+
+
+.itemName{
+  background-color: rgb(239, 207, 75);
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align:center;
+  margin-top: 0px;
+
+}
+
+
+/* BIGCUBES */
+
+.bigCubeDiv{
+  display: flex;
+  justify-content: center;  
+}
+
+.bigCubeContainer{
+  margin-top:15px;
+  display:flex;
+  justify-content: center;
+  margin-bottom: 0px;
+
+}
+
+.bigCube{
+  display: flex;
+
+}
+
+.bigCubeFont:hover {
+
+    animation: shake 0.2s;
+  }
+
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+.bigCubeFont{
+  font-family: 'Rock Salt', cursive;
+  font-size: 20pt;
+  background-color: rgb(239, 207, 75);
+  padding-left: 45px;
+  padding-right:45px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-right:10px;
+  box-shadow: 5px 5px #000000;
+
+}
+
+#bigCube1 {
+  border-color: rgb(95, 165, 93);
+  border-width: 4px;
+  border-style:solid;
+
+}
+
+
+#bigCube2 {
+  border-color: rgb(88, 99, 175);
+  border-width: 4px;
+  border-style:solid;
+}
+
+#bigCube3 {
+  border-color: rgb(179,48,43);
+  border-width: 4px;
+  border-style: solid;
+}
+
+
+/* BUTTONS */
+.buttons {
+display: flex;
+justify-content: space-evenly;
+}
+/* DONEBUTTON */
+
+#doneButton{
+  background-color: rgb(95, 165, 93);
+  width: 200px;
+  height: 60px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right:auto;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: xx-large;
+  text-align:center;
+  padding: 4px;
+  border-radius: 20px;
+  box-shadow: 5px 5px #000000;
+
+  
+}
+
+#doneButton:hover{
+  background-color: rgb(88, 99, 175);
+}
+
+#doneButton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/* PLAY AGAIN BUTTON */
+#playAgain{
+  background-color: rgb(95, 165, 93);
+  width: 200px;
+  height: 60px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right:auto;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: xx-large;
+  text-align:center;
+  padding: 4px;
+  border-radius: 20px;
+  box-shadow: 5px 5px #000000;
+
+  
+}
+
+#playAgain:hover{
+  background-color: rgb(88, 99, 175);
+}
+
+#playAgain:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+
+/*CUBE 
+/*===================================
+/* .scene {
+    width: 200px;
+    height: 200px;
+    perspective: 600px;
+  }
+
+.smallCubeDiv {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+  }
+
+  .smallCube{
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background-color: aqua;
+  }
+
+  .faceFront  { transform: translateZ(37.5px) rotateY(  0deg); }
+  .faceRight{ transform: translateZ(37.5px)  rotateY( -90deg); }
+  .faceBack  { transform: translateZ(37.5px)  rotateY(-180deg); }
+  .faceLeft   { transform: translateZ(37.5px)  rotateY(90deg); }
+  .faceTop   { transform: translateZ(37.5px)   rotateX(-90deg); }
+  .faceBottom { transform: translateZ(37.5px)  rotateX(90deg); } */
+
+
+  /*====================================
